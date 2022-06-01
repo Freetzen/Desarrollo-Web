@@ -1,42 +1,78 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="shortcut icon" href="../imagenes/blanco.png" type="image/x-icon">
+
     <link rel="stylesheet" href="../css/style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+
     <title>Servicios</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
+
 <body>
 
     <header id="header">
 
-        <div class="header-contenedor">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-sm-top">
 
-            <div class="logo">
-                 <img src="../imagenes/blanco.png" alt="logo" class="logo-img">
+            <div class="container-fluid">
+    
+              <a class="navbar-brand" href="#"><img src="../imagenes/blanco.png" alt="logo" width="100px"></a>
+    
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse texto-menu" id="navbarSupportedContent">
+    
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>  
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="./equipo.html">Equipo</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="./servicios.html">Servicios</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                  
+                </ul>
+    
+              </div>
+    
             </div>
-            
-            <nav>
-
-                <ul class="lista">
-
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="equipo.html">Equipo</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>    
-
-                </ul>    
-
-            </nav>
+    
+          </nav>
 
         </div>
 
         <div class="titulo">
-            <h1 class="titulo-pagina4">SERVICIOS</h1>
+            <span><h1 class="titulo-pagina4">SERVICIOS</h1></span>
         </div>
         
     </header>
@@ -134,38 +170,83 @@
 
 
     
-    <footer class="pie">
+    <div class="container-fluid mt-5 pl-0">
 
-        <div class="pie-contenedor">
+        <div class="card bg-white mx-5">
 
-            <div class="pie-direccion">
+            <div class="row mb-4">
 
-                <h4>UBICACIÓN</h4>
+                <div class="col-md-4 col-sm-4 col-xs-4">
 
-                <div>
+                    <div class="footer-text pull-left">
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d837.528212362875!2d-68.84698116433964!3d-32.895184468917456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091030178de9%3A0x5436776757bc3afa!2sAv.%20Bartolom%C3%A9%20Mitre%20543%2C%20M5500%20Mendoza!5e0!3m2!1ses-419!2sar!4v1652122723964!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="pie-iframe"></iframe>
+                        <div class="d-flex">
+
+                            <h1 class="font-weight-bold mr-2 px-3" style="color:white; "><img src="../imagenes/blanco.png" alt="logo" width="150px"></h1>
+                        </div>
+
+                        <p class="card-text"></p>
+
+                        <div class="social mt-2 mb-3"> <i class="fa fa-facebook-official fa-lg"></i> <i class="fa fa-instagram fa-lg"></i> <i class="fa fa-twitter fa-lg"></i> <i class="fa fa-linkedin-square fa-lg"></i> <i class="fa fa-facebook"></i> </div>
+
+                    </div>
 
                 </div>
 
+                <div class="col-md-2 col-sm-2 col-xs-2"></div>
+
+                <div class="col-md-2 col-sm-2 col-xs-2">
+
+                    <h5 class="heading">Páginas</h5>
+
+                    <ul style="padding-left: 0;">
+                        <a href="../index.html"><li>Inicio</li></a>
+                        <a href="./nosotros.html"><li>Nosotros</li></a>
+                        <a href="./equipo.html"><li>Equipo</li></a>
+                        <a href="./servicios.html"><li>Servicios</li></a>
+                        <a href="./contacto.html"><li>Contacto</li></a>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-2">
+
+                    <h5 class="heading">Contacto</h5>
+
+                    <ul style="padding-left: 0;">
+                      <a href="mailto:estudiocasetti@gmail.com?subject=feedback" class="pie-texto">estudiocasetti@gmail.com</a>
+                   </ul>
+
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                  <a href="https://goo.gl/maps/yPDzeX2mk7ydvZ2F6" style="text-decoration: none;"><h5 class="heading">Ubicación <img src="./imagenes/pin.svg" alt=""></h5></a>
+                </div>
+                
             </div>
 
-            <div class="pie-correo">  
+            <div class="divider mb-4"> </div>
 
-                <a href="mailto:estudiocasetti@gmail.com?subject=feedback"><img src="../imagenes/correo.png" alt="logo-correo"></a>
+            <div class="d-flex justify-content-center" style="font-size:10px;">
 
-                <a href="mailto:estudiocasetti@gmail.com?subject=feedback" class="pie-texto">estudiocasetti@gmail.com</a>
+                <div class="col-md-6 col-sm-6 col-xs-6 d-flex justify-content-center">
 
-            </div>  
+                    <div class="">
 
-            <div class="pie-logo">
-                <img src="../imagenes/blanco.png" alt="logo-pie">
+                        <p><i class="fa fa-copyright"></i> 2022 Federico Ruiz Gei</p>
+
+                    </div>
+
+                </div>
+                
             </div>
-
 
         </div>
-        
-    </footer>
+
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 
