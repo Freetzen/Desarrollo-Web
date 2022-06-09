@@ -21,6 +21,16 @@
 
     /* Inicio */
 
+    #header{
+
+        .titulo-pagina1{
+            text-align: center;
+            color: white;
+            padding-top: 25vh;
+            font-size: 150px;
+        }
+    }
+
     .unPocoDeNosotros{
         display: flex;
         flex-direction: row;

@@ -1,5 +1,25 @@
 /* inicio */
 
+#header{
+
+    .titulo{
+        display: flex;
+        justify-content: center;
+        animation: titulo 4s;
+
+        span{
+            text-align: center;
+        }
+    }
+
+    .titulo-pagina1{
+        color: white;
+        font-size: 80px;
+        padding-top: 40vh;
+    }
+
+}
+
 .unPocoDeNosotros{
 
     .presentacion{
@@ -96,6 +116,7 @@
     background-image: url(../imagenes/contrato2.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 5px;
     height: 100vh;

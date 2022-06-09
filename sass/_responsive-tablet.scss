@@ -4,6 +4,17 @@
 
     /* Inicio */
 
+    #header{
+
+        .titulo-pagina1{
+            text-align: center;
+            color: white;
+            font-size: 100px;
+            padding-top: 45vh;
+        }
+
+    }
+
     .unPocoDeNosotros{
         display: flex;
         flex-direction: column-reverse;
@@ -113,6 +124,17 @@
 
     /* Contacto */
 
+    #header{
+
+        .titulo-pagina5{
+            text-align: center;
+            color: white;
+            font-size: 120px;
+            padding-top: 45vh;
+        }
+
+    }
+    
     .info{
 
         .info-formas{

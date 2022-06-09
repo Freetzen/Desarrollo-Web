@@ -6,6 +6,8 @@
     background-image: url(../imagenes/cuaderno.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: initial;
     height: 100vh;
     padding: 0px;
 
@@ -31,6 +33,7 @@
                     text-decoration: none;
                     color: white;
                     font-size: 20px;
+                    text-align: center;
                 }
 
             }
