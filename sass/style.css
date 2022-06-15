@@ -1,3 +1,19 @@
+/* Maps */
+.info-direccion {
+  background: red;
+  font-size: 25px;
+}
+
+.info-wp {
+  background: blue;
+  font-size: 25px;
+}
+
+.info-telefono {
+  background: lightblue;
+  font-size: 25px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -467,7 +483,6 @@
 }
 
 .info .info-formas .info-direccion, .info .info-formas .info-wp, .info .info-formas .info-telefono {
-  font-size: 25px;
   margin: 20px 0;
   margin-top: 80px;
   display: -ms-grid;

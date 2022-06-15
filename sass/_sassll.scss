@@ -1,0 +1,27 @@
+/* Maps */
+
+$comunicacion: (
+    direccion: red,
+    whatsapp: blue,
+    telefono: lightblue,
+);
+
+@mixin info {
+    font-size: 25px;
+}
+
+.info-direccion{
+    background: map-get($comunicacion, direccion);
+    @include info;
+
+}
+
+.info-wp{
+    background: map-get($comunicacion, whatsapp);
+    @include info;
+}
+
+.info-telefono{
+    background: map-get($comunicacion, telefono);
+    @include info;
+}
