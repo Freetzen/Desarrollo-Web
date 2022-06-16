@@ -1,19 +1,3 @@
-/* Maps */
-.info-direccion {
-  background: red;
-  font-size: 25px;
-}
-
-.info-wp {
-  background: blue;
-  font-size: 25px;
-}
-
-.info-telefono {
-  background: lightblue;
-  font-size: 25px;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -328,6 +312,7 @@
   color: black;
   font-weight: 600;
   margin: 20px;
+  font-size: 18px;
 }
 
 .equipo .equipo-perfil .equipo-mobile {
@@ -364,6 +349,8 @@
   width: 300px;
   margin: 20px 0;
   padding: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* CONTACTO */
@@ -483,6 +470,7 @@
 }
 
 .info .info-formas .info-direccion, .info .info-formas .info-wp, .info .info-formas .info-telefono {
+  font-size: 25px;
   margin: 20px 0;
   margin-top: 80px;
   display: -ms-grid;
@@ -520,14 +508,15 @@
 /*  */
 /* NAVBAR */
 #header {
-  background-image: url(../imagenes/cuaderno.jpg);
+  background: url(../imagenes/cuaderno.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: initial;
+  position: relative;
   height: 100vh;
   width: 100%;
   padding: 0px;
+  display: table;
 }
 
 #header .navbar {
@@ -826,6 +815,13 @@ footer .card .divider {
     color: white;
     padding-top: 25vh;
     font-size: 150px;
+  }
+  .servicios .servicios-1 {
+    width: 400px;
+  }
+  .servicios .servicios-1 p {
+    font-size: 18px;
+    justify-items: center;
   }
   /* Contacto */
   #header .titulo-pagina5 {

@@ -1,4 +1,3 @@
-/* Maps */
 
 $comunicacion: (
     direccion: red,
@@ -10,18 +9,18 @@ $comunicacion: (
     font-size: 25px;
 }
 
-.info-direccion{
+.info-direccionn{
     background: map-get($comunicacion, direccion);
     @include info;
 
 }
 
-.info-wp{
+.info-wps{
     background: map-get($comunicacion, whatsapp);
     @include info;
 }
 
-.info-telefono{
+.info-telefon{
     background: map-get($comunicacion, telefono);
     @include info;
 }
