@@ -156,7 +156,7 @@
   transition: all 0.2s ease-in;
   position: relative;
   overflow: hidden;
-  font-size: 19px;
+  font-size: 20px;
   color: black;
 }
 
@@ -195,8 +195,9 @@
 }
 
 .contactanos .button:hover {
-  color: #ffffff;
+  color: white;
   border: 1px solid white;
+  background-color: #5d4b41;
 }
 
 .contactanos .button:hover:before {
